@@ -29,44 +29,44 @@ Ensure you have the following installed on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/mr-developer-88/grok_bot_alternative.git](https://github.com/mr-developer-88/grok_bot_alternative.git)
-   cd grok_bot_alternativeInstall dependencies:
+   git clone https://github.com/mr-developer-88/grok_bot_alternative.git
+   cd grok_bot_alternative
+   ```
 
-Bash
-npm install
-Configure Environment Variables:
-Create a .env.local file in the root directory and add your required keys:
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-Code snippet
-DATABASE_URL=postgresql://your_db_connection_string
-NEXTAUTH_SECRET=your_nextauth_secret
-RESEND_API_KEY=your_resend_api_key
-Run the development server:
+3. **Configure Environment Variables:**
+   Create a `.env.local` file in the root directory and add your required keys:
+   ```env
+   DATABASE_URL=postgresql://your_db_connection_string
+   NEXTAUTH_SECRET=your_nextauth_secret
+   RESEND_API_KEY=your_resend_api_key
+   ```
 
-Bash
-npm run dev
-Access the app:
-Open http://localhost:3000 in your browser.
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-💻 Development Workflow (Multi-Device Sync)
-When working across multiple machines (e.g., PC and Laptop):
-
-Before starting work:
-
-Bash
-git pull origin main
-After committing changes:
-
-Bash
-git add .
-git commit -m "Update feature description"
-git push origin main
+5. **Access the app:**
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-Paste karke file save karo aur Terminal mein yeh chala do:
+## 💻 Development Workflow (Multi-Device Sync)
 
-```bash
-git add README.md
-git commit -m "Update README.md"
-git push origin main
+When working across multiple machines (e.g., PC and Laptop):
+
+- **Before starting work:**
+  ```bash
+  git pull origin main
+  ```
+- **After committing changes:**
+  ```bash
+  git add .
+  git commit -m "Update feature description"
+  git push origin main
+  ```
