@@ -56,17 +56,3 @@ Ensure you have the following installed on your machine:
 
 ---
 
-## 💻 Development Workflow (Multi-Device Sync)
-
-When working across multiple machines (e.g., PC and Laptop):
-
-- **Before starting work:**
-  ```bash
-  git pull origin main
-  ```
-- **After committing changes:**
-  ```bash
-  git add .
-  git commit -m "Update feature description"
-  git push origin main
-  ```
