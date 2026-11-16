@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 export default function Home() {
 
   const {data} = useSession();
-  console.log(data)
+  // console.log(data)
   return (
     <div>
       <h2>Hello ASIM PaaG!</h2>
