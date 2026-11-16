@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
         if(result.length === 0) {
             return NextResponse.json({
                 message: "User exists already!"
-            }, {status: 409})
+            }, {status: 200})
         }
 
         return NextResponse.json({ message: "user saved successfully", user: result})
